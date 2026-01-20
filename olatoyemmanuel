@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Olatoye | Blockchain Developer & Smart Contracts Auditor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Three.js Background Container -->
+    <div id="three-bg"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#" class="logo">E.O</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#methodology">Methodology</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Emmanuel Olatoye</h1>
+                <h2>Blockchain Developer & Smart Contracts Auditor</h2>
+                <p>Building secure decentralized applications and conducting comprehensive smart contract audits. Specializing in Ethereum, Solidity, and Web3 security with a focus on DeFi protocols and NFT ecosystems.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="blockchain-visual">
+                    <div class="block-node center pulse">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <div class="block-node floating" style="animation-delay: 0.5s;">
+                        <i class="fab fa-ethereum"></i>
+                    </div>
+                    <div class="block-node floating" style="animation-delay: 1s;">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="block-node floating" style="animation-delay: 1.5s;">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="block-node floating" style="animation-delay: 2s;">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Blockchain Specialist & Security Auditor</h3>
+                <p>I'm a dedicated blockchain developer and smart contracts auditor with 4+ years of experience in the Web3 space. My expertise lies in building robust decentralized applications and ensuring the security of smart contracts through comprehensive audits.</p>
+                <p>I've worked with various blockchain protocols including Ethereum, Polygon, Binance Smart Chain, and Solana, focusing on DeFi protocols, NFT marketplaces, and enterprise blockchain solutions.</p>
+                <p>My auditing approach combines automated testing tools with manual review to identify vulnerabilities and provide actionable recommendations for securing smart contracts against exploits.</p>
+                
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-value">50+</div>
+                        <div class="stat-label">Smart Contracts Audited</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">30+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">100%</div>
+                        <div class="stat-label">Security Focus</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="blockchain-visual">
+                    <!-- Visual representation will be added via Three.js -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Technical Expertise</h2>
+        <div class="skills-content">
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Blockchain Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Solidity</span>
+                        <span class="skill-item">Ethereum</span>
+                        <span class="skill-item">Web3.js</span>
+                        <span class="skill-item">Ethers.js</span>
+                        <span class="skill-item">Hardhat</span>
+                        <span class="skill-item">Truffle</span>
+                        <span class="skill-item">IPFS</span>
+                        <span class="skill-item">The Graph</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-shield-alt"></i> Security & Auditing</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Smart Contract Auditing</span>
+                        <span class="skill-item">Penetration Testing</span>
+                        <span class="skill-item">Security Analysis</span>
+                        <span class="skill-item">Slither</span>
+                        <span class="skill-item">Mythril</span>
+                        <span class="skill-item">Formal Verification</span>
+                        <span class="skill-item">Gas Optimization</span>
+                        <span class="skill-item">Security Best Practices</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-cubes"></i> DeFi & Protocols</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">ERC-20</span>
+                        <span class="skill-item">ERC-721</span>
+                        <span class="skill-item">ERC-1155</span>
+                        <span class="skill-item">AMM DEX</span>
+                        <span class="skill-item">Lending Protocols</span>
+                        <span class="skill-item">Yield Farming</span>
+                        <span class="skill-item">DAO Governance</span>
+                        <span class="skill-item">Cross-chain Bridges</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audit Methodology Section -->
+    <section id="methodology" class="methodology">
+        <h2 class="section-title">Audit Methodology</h2>
+        <div class="methodology-content">
+            <div class="methodology-text">
+                <p class="methodology-intro">I follow a structured security-first audit process designed to catch real-world attack vectors, not surface-level issues.</p>
+                
+                <div class="methodology-steps">
+                    <div class="methodology-step">
+                        <div class="step-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="step-content">
+                            <h3>Manual Code Review</h3>
+                            <p>Comprehensive line-by-line analysis of smart contracts to identify logical flaws, business logic errors, and architectural weaknesses.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="methodology-step">
+                        <div class="step-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="step-content">
+                            <h3>Automated Analysis</h3>
+                            <p>Utilizing industry-standard tools like Slither, Mythril, and Echidna to detect common vulnerabilities and security patterns automatically.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="methodology-step">
+                        <div class="step-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="step-content">
+                            <h3>Threat Modeling</h3>
+                            <p>Systematic analysis of attack vectors including reentrancy, flash loan attacks, access control issues, and economic exploits.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="methodology-step">
+                        <div class="step-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <div class="step-content">
+                            <h3>Gas Optimization</h3>
+                            <p>Identifying and optimizing gas-inefficient code patterns to reduce transaction costs and improve contract efficiency.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="methodology-step">
+                        <div class="step-icon">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        <div class="step-content">
+                            <h3>Edge-Case Testing</h3>
+                            <p>Rigorous testing of boundary conditions, unexpected inputs, and failure scenarios to ensure contract resilience.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="methodology-step">
+                        <div class="step-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="step-content">
+                            <h3>Detailed Reporting</h3>
+                            <p>Clear vulnerability classification (Critical/High/Medium/Low), remediation guidance, and actionable recommendations.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="methodology-details">
+                    <div class="severity-levels">
+                        <h3>Severity Classification</h3>
+                        <div class="severity-grid">
+                            <div class="severity-level critical">
+                                <div class="severity-label">Critical</div>
+                                <div class="severity-desc">Immediate threat to funds or contract control</div>
+                            </div>
+                            <div class="severity-level high">
+                                <div class="severity-label">High</div>
+                                <div class="severity-desc">Significant risk requiring immediate attention</div>
+                            </div>
+                            <div class="severity-level medium">
+                                <div class="severity-label">Medium</div>
+                                <div class="severity-desc">Important issues that should be addressed</div>
+                            </div>
+                            <div class="severity-level low">
+                                <div class="severity-label">Low</div>
+                                <div class="severity-desc">Minor issues or code improvements</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-content">
+            <div class="projects-grid">
+   
+   <div class="project-card">
+    <div class="project-header">
+        <h3>SecureDeFi Lending Protocol</h3>
+        <div class="category">Smart Contract Development & Audit</div>
+    </div>
+    <div class="project-body">
+        <p>A decentralized lending protocol with advanced security features, multi-collateral support, and flash loan prevention mechanisms.</p>
+        <div class="project-tech">
+            <span class="tech-tag">Solidity</span>
+            <span class="tech-tag">Hardhat</span>
+            <span class="tech-tag">Chainlink</span>
+            <span class="tech-tag">DeFi</span>
+            <span class="tech-tag">Security</span>
+            <span class="tech-tag">Flash Loans</span>
+        </div>
+        <div class="project-links" style="display: flex; gap: 10px; margin-top: 20px;">
+            <a href="Project/securedfi-lending-protocol.html" class="btn btn-outline">View Documentation</a>
+            <a href="Project/securedfi-lending-protocol.html" onclick="generateProtocolPDF()" class="btn btn-primary">Download PDF</a>
+        </div>
+    </div>
+</div>
+                
+                <div class="project-card">
+    <div class="project-header">
+        <h3>NFT Marketplace Security Audit</h3>
+        <div class="category">Smart Contract Audit</div>
+    </div>
+    <div class="project-body">
+        <p>Comprehensive security audit for an NFT marketplace, identifying critical vulnerabilities and providing remediation strategies.</p>
+        <div class="project-tech">
+            <span class="tech-tag">Security Audit</span>
+            <span class="tech-tag">Mythril</span>
+            <span class="tech-tag">Slither</span>
+            <span class="tech-tag">ERC-721</span>
+            <span class="tech-tag">Smart Contracts</span>
+            <span class="tech-tag">Vulnerability</span>
+        </div>
+        <div class="project-links" style="display: flex; gap: 10px; margin-top: 20px;">
+            <a href="Project/nft-marketplace-audit-report.html" class="btn btn-outline">View Audit Report</a>
+            <a href="Project/nft-marketplace-audit-report.html" onclick="generateAuditPDF()" class="btn btn-primary">Download PDF</a>
+        </div>
+    </div>
+</div>
+                
+ <div class="project-card">
+    <div class="project-header">
+        <h3>Cross-chain Bridge Protocol</h3>
+        <div class="category">Blockchain Development</div>
+    </div>
+    <div class="project-body">
+        <p>A secure cross-chain asset bridge enabling token transfers between Ethereum, Polygon, and Binance Smart Chain networks.</p>
+        <div class="project-tech">
+            <span class="tech-tag">Cross-chain</span>
+            <span class="tech-tag">Polygon</span>
+            <span class="tech-tag">BSC</span>
+            <span class="tech-tag">Web3.js</span>
+            <span class="tech-tag">Solidity</span>
+            <span class="tech-tag">Security</span>
+        </div>
+        <div class="project-links">
+            <a href="Project/cross-chain-bridge-documentation.html" class="btn btn-outline">View Documentation</a>
+            <a href="Project/cross-chain-bridge-documentation.html" class="btn btn-primary" onclick="return generatePDF()">Download PDF</a>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <p>Interested in discussing a blockchain project or need a security audit for your smart contracts? Let's discuss.</p>
+            
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:olatoyemmanuel@gmail.com"></a>
+                </div>
+                
+                <div class="contact-method">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/olatoyemmanuel" target="_blank"></a>
+                </div>
+                
+                <div class="contact-method">
+                    <i class="fab fa-twitter"></i>
+                    <h3>Twitter</h3>
+                    <a href="https://twitter.com/olatoyemmanuel" target="_blank"></a>
+                </div>
+                
+                <div class="contact-method">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <a href="https://linkedin.com/in/olatoyemmanuel" target="_blank"></a>
+                </div>
+            </div>
+            
+            <a href="mailto:olatoyemmanuel@gmail.com" class="btn btn-primary">Start a Conversation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Emmanuel Olatoye</div>
+            
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#methodology">Methodology</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/olatoyemmanuel" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/olatoyemmanuel" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/in/olatoyemmanuel" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://t.me/olatoyemmanuel" target="_blank"><i class="fab fa-telegram"></i></a>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2026 Emmanuel Olatoye. All rights reserved. | Blockchain Developer & Smart Contracts Auditor
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
